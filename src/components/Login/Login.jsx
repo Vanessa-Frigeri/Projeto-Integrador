@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../Header';
-import Container from '../Container';
 import { FaAngleLeft ,FaAngleRight } from 'react-icons/fa';
 import {
   LoginContainer,
@@ -19,8 +17,6 @@ import {
 
 const Login = () => (
   <>
-    <Header/>
-    <Container>
       <LoginContainer>
         <LoginLogo to="/"><FaAngleLeft/>Conectados<FaAngleRight/></LoginLogo>
         <LoginForm>      
@@ -43,7 +39,6 @@ const Login = () => (
           <LoginNewAccount to="/login">Criar uma nova conta</LoginNewAccount>        
         </LoginForm>
       </LoginContainer>
-    </Container>    
   </>
 );
 

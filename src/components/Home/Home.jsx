@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../Header';
 import Container from '../Container';
-import Login from '../Login';
 
 const Home = () => (
   <>
     <Header/>
     <Container>
+      <h1>Aqui é o Home</h1>
     </Container>
   </>
 );

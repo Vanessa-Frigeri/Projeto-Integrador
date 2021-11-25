@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaBars, FaAngleLeft ,FaAngleRight } from 'react-icons/fa';
 import Profile from '../Profile';
+import Modal from '../Modal';
+import Login from '../Login';
+import Signup from '../Signup';
 import {
   NavbarContainer, 
   Nav, 
@@ -10,14 +13,37 @@ import {
   NavLogo, 
   NavProfile,
   NavItem,
+  NavGroupList,
+  NavGroupItem,
+  NavGroupButton
 } from './NavbarElements';
 
 const Navbar = ({toggle}) => {
+  const [showModalLogin, setShowModalLogin] = useState(false);
+
+  const openModalLogin = () => {
+    setShowModalLogin((prev) => !prev);
+  };
+
+  const [showModalSignup, setShowModalSignup] = useState(false);
+
+  const openModalSignup = () => {
+    setShowModalSignup((prev) => !prev);
+  };
+
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/"><FaAngleLeft/>Conectados<FaAngleRight/></NavLogo>
+          <NavGroupList>
+            <NavGroupItem>
+                <NavGroupButton type="button" onClick={openModalLogin}>Entrar</NavGroupButton>   
+            </NavGroupItem>              
+            <NavGroupItem>                
+                <NavGroupButton type="button" onClick={openModalSignup}>Nova Conta</NavGroupButton>  
+            </NavGroupItem>
+          </NavGroupList> 
           <NavProfile>
             <Profile/>
           </NavProfile>            
@@ -58,6 +84,18 @@ const Navbar = ({toggle}) => {
           </NavMenu>
         </NavbarContainer>
       </Nav>
+      <Modal
+        showModal={showModalLogin}
+        setShowModal={setShowModalLogin}
+      >
+        <Login />
+      </Modal>
+      <Modal
+        showModal={showModalSignup}
+        setShowModal={setShowModalSignup}
+      >
+        <Signup />
+      </Modal>
     </>
   );
 };

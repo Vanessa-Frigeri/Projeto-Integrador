@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from '../Header';
 import Container from '../Container';
+import Modal from '../Modal';
+import NewTask from '../NewTask';
+
 import {
   TaskContainer,
   TaskPath,
@@ -13,8 +16,17 @@ import {
   TaskButton
 } from './TaskElements';
 
-const Task = () => (
-  <>
+
+
+const Task = () => {
+  const [showModalNewTask, setShowModalNewTask] = useState(false);
+
+  const openModalNewTask = () => {
+    setShowModalNewTask((prev) => !prev);
+  };
+
+  return (
+    <>
     <Header/>
     <Container>
       <TaskContainer>
@@ -26,7 +38,7 @@ const Task = () => (
             <TaskPathItemLink to="/task/pendents">Tarefas Pendentes</TaskPathItemLink>          
           </TaskPathItem>
         </TaskPath>
-        <TaskButton>Criar Nova Tarefa</TaskButton>
+        <TaskButton type="button" onClick={openModalNewTask}>Nova Tarefa</TaskButton>
         <TaskTable>
           <TaskTableRow>
             <TaskTableColumnName>Status</TaskTableColumnName>
@@ -59,10 +71,17 @@ const Task = () => (
             <TaskTableRowValue>Item 1</TaskTableRowValue>
           </TaskTableRow>
         </TaskTable>
-        <TaskButton>Criar Nova Tarefa</TaskButton>
+        <TaskButton type="button" onClick={openModalNewTask}>Nova Tarefa</TaskButton>
       </TaskContainer>
+      <Modal
+        showModal={showModalNewTask}
+        setShowModal={setShowModalNewTask}
+      >
+        <NewTask />
+      </Modal>
     </Container>
   </>  
-);
+  );
+};
 
 export default Task;

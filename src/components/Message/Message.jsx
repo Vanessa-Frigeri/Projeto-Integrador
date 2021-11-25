@@ -1,10 +1,13 @@
 import React from 'react';
 import Header from '../Header';
+import Container from '../Container';
 
 const Message = () => (
   <>
     <Header/>
-    <h1>Calendar</h1>
+    <Container>
+      <h1>Aqui é o Message</h1>
+    </Container>
   </>  
 );
 

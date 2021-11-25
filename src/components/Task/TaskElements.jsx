@@ -63,7 +63,7 @@ export const TaskTableRowValue = styled.td`
 
 export const TaskButton = styled.button`
   border: none;
-  width: 20rem;
+  width: 10rem;
   padding: .5rem 0;
   border-radius: 1rem;
   font-size: 1.2rem;

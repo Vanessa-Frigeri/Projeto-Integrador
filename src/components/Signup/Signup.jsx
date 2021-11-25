@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../Header';
-import Container from '../Container';
 import { FaAngleLeft ,FaAngleRight } from 'react-icons/fa';
 import {
   SignupContainer,
@@ -14,8 +12,6 @@ import {
 
 const Signup = () => (
   <>
-    <Header/>
-    <Container>
       <SignupContainer>
         <SignupLogo to="/"><FaAngleLeft/>Conectados<FaAngleRight/></SignupLogo>
         <SignupForm>  
@@ -37,8 +33,7 @@ const Signup = () => (
           </SignupGroup>
           <SignupButton>Criar conta</SignupButton>      
         </SignupForm>
-      </SignupContainer>
-    </Container>    
+      </SignupContainer>  
   </>
 );
 
