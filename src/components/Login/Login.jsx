@@ -11,7 +11,7 @@ import {
   LoginCheck,
   LoginForgot,
   LoginCheckLabel,
-  LoginButton,
+  LoginLink,
   LoginNewAccount
 } from './LoginElements';
 
@@ -28,7 +28,7 @@ const Login = () => (
             <LoginInput type="password"/>
             <LoginLabel>Senha</LoginLabel>
           </LoginGroup>
-          <LoginButton> Conectar </LoginButton>
+          <LoginLink to="/home"> Conectar </LoginLink>
           <LoginGroupKeep className="p-d-flex p-flex-row p-jc-around">
             <div>
               <LoginCheck type="checkbox"/>
@@ -36,7 +36,7 @@ const Login = () => (
             </div>
             <LoginForgot to="/login">Esqueceu a senha?</LoginForgot>
           </LoginGroupKeep>
-          <LoginNewAccount to="/login">Criar uma nova conta</LoginNewAccount>        
+          <LoginNewAccount to="/signup">Criar uma nova conta</LoginNewAccount>        
         </LoginForm>
       </LoginContainer>
   </>

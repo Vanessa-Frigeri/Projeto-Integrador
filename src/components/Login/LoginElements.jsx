@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 
 export const LoginContainer = styled.div`
-  margin-top: 8rem;
-  width: 50%;
-  height: 60%;
+  width: 100%;
+  height: 35rem;
+  border-radius: 1rem;
   display: flex;  
   justify-content: center;
   flex-direction: column;
@@ -22,7 +22,11 @@ export const LoginForm = styled.form`
   align-items: center;
 `;
 
-export const LoginButton = styled.button`
+export const LoginLink = styled(LinkR)`
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
   border: none;
   width: 30%;
   padding: .5rem 0;
