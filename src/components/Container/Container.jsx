@@ -13,7 +13,7 @@ const ContainerBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 92vh;
+  height: 100%;
   width: 100vw;
 
   @media screen and (max-width:540px){

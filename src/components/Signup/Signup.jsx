@@ -7,7 +7,7 @@ import {
   SignupGroup,
   SignupInput,
   SignupLabel,
-  SignupButton,
+  SignupLink,
 } from './SignupElements';
 
 const Signup = () => (
@@ -31,7 +31,7 @@ const Signup = () => (
             <SignupInput type="password"/>
             <SignupLabel>Confirme a Senha</SignupLabel>
           </SignupGroup>
-          <SignupButton>Criar conta</SignupButton>      
+          <SignupLink to="/home">Criar conta</SignupLink> 
         </SignupForm>
       </SignupContainer>  
   </>

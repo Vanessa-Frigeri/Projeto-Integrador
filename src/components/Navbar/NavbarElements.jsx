@@ -98,25 +98,3 @@ export const NavItem = styled.li`
   height: 3rem;
 `;
 
-export const NavGroupList = styled.ul`
-  list-style: none;
-  width: 30%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-
-`;
-
-export const NavGroupItem = styled.li`
-  box-sizing: border-box;
-`;
-
-export const NavGroupButton = styled.button`
-  width: 10rem;
-  font-size: 1.2rem;
-  padding: .5rem;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 1rem;
-  color: var(--purple-50);
-`;

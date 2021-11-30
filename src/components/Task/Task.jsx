@@ -3,7 +3,6 @@ import Header from '../Header';
 import Container from '../Container';
 import Modal from '../Modal';
 import NewTask from '../NewTask';
-
 import {
   TaskContainer,
   TaskPath,
@@ -13,10 +12,8 @@ import {
   TaskTableRow,
   TaskTableColumnName,
   TaskTableRowValue,
-  TaskButton
+  TaskButton,
 } from './TaskElements';
-
-
 
 const Task = () => {
   const [showModalNewTask, setShowModalNewTask] = useState(false);
