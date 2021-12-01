@@ -45,16 +45,6 @@ const Navbar = ({toggle}) => {
                 Carteira
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to="/message" >
-                Recados
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/settings" >
-                Configurações
-              </NavLink>
-            </NavItem>
           </NavMenu>
         </NavbarContainer>
       </Nav>

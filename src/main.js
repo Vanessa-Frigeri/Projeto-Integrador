@@ -7,8 +7,6 @@ import Home from './components/Home';
 import Calendar from './components/Calendar';
 import Task from './components/Task';
 import Finance from './components/Finance';
-import Message from './components/Message';
-import Settings from './components/Settings';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import ListPayments from './components/ListPayments';
@@ -21,9 +19,7 @@ const Main = () => (
       <Route exact path="/home" element={<Principal/>} />
       <Route exact path="/calendar" element={<Calendar/>} />
       <Route path="/task" element={<Task/>} />
-      <Route path="/finance" element={<Finance/>} />
-      <Route path="/message" element={<Message/>} />
-      <Route path="/settings" element={<Settings/>} />  
+      <Route path="/finance" element={<Finance/>} /> 
       <Route path="/login" element={<Login/>} /> 
       <Route path="/signup" element={<Signup/>} />
       <Route path="/finance/listPayments" element={<ListPayments/>} />   

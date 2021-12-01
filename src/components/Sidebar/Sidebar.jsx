@@ -21,8 +21,6 @@ const Sidebar = ({isOpen, toggle}) => {
           <SidebarLink to="/calendar" onClick={toggle}>Calendário</SidebarLink>
           <SidebarLink to="/task" onClick={toggle}>Tarefas</SidebarLink>
           <SidebarLink to="/finance" onClick={toggle}>Carteira</SidebarLink>
-          <SidebarLink to="/message" onClick={toggle}>Recados</SidebarLink>
-          <SidebarLink to="/settings" onClick={toggle}>Configurações</SidebarLink>
           <SidebarLink to="/profile" onClick={toggle}><Profile/>Profile</SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
