@@ -27,6 +27,12 @@ export const DropdownNav = styled.nav`
   }
 `;
 
+export const Name = styled.span`
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+`;
+
 export const DropdownButton = styled.button`
   background: transparent;
   border-radius: 2px;

@@ -6,7 +6,8 @@ import {
   DropdownNavList,
   DropdownNavListItem,
   DropdownNavListItemLink,
-  DropdownButton
+  DropdownButton,
+  Name
 } from './DropdownElements';
 import Profile from '../Profile';
 
@@ -20,7 +21,7 @@ const Dropdown = () => {
       <div className="container">
         <DropdownContainer>
           <DropdownButton onClick={onClick} >
-            <span>Vanessa</span>
+            <Name>Quem</Name>
             <Profile/>
           </DropdownButton>
           <DropdownNav

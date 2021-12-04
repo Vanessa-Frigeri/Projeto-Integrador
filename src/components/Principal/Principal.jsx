@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../Header';
 import Container from '../Container';
+import em_construcao from '../../assets/images/em_construcao.jpeg';
 import {
   PrincipalContainer,
   Calendar,
   PrincipalBox,
   ListTask,
   ListFinance,
-  ListMessage
+  Image
 } from './PrincipalElements';
 
 const Principal = () => (
@@ -15,11 +16,10 @@ const Principal = () => (
     <Header/>
     <Container>
       <PrincipalContainer>
-        <Calendar>Aqui vai ficar o calendario</Calendar>
+        <Calendar><Image src={em_construcao} alt="calendario"/></Calendar>
         <PrincipalBox>
-          <ListTask>Lista de Tarefas</ListTask>
-          <ListFinance>Lista de Pagamentos e Despesas</ListFinance>
-          <ListMessage>Lista de Recados</ListMessage>
+          <ListTask><Image src={em_construcao} alt="tarefas"/></ListTask>
+          <ListFinance><Image src={em_construcao} alt="financeiro"/></ListFinance>
         </PrincipalBox>
       </PrincipalContainer>      
     </Container>
