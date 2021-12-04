@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
 
 export const ListExpensesContainer = styled.div`
   width: 100%;
@@ -10,29 +9,31 @@ export const ListExpensesContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const ListExpensesPathItem = styled.li`
-  font-size: 1.5rem;
-`;
 
-export const ListExpensesPath = styled.ul`
-  display: flex;
+export const ExpensesTable = styled.table`
   width: 100%;
-  padding: 10px 16px;
-  list-style: none;
-  background-color: var(--purple-100);
-  padding: 0.5rem calc((100vw - 1200px) / 2);
-
-  ${ListExpensesPathItem} + ${ListExpensesPathItem}::before{
-    padding: .5rem;
-    color: var(--purple-500);
-    content: ">"; 
-    font-weight: bold ;
-  }
-  
+  border-collapse: collapse;
+  text-align: left;
 `;
 
-export const ListExpensesPathItemLink = styled(LinkR)`
-  cursor: pointer; 
-  text-decoration: none;
-  color: var(--purple-900);
+export const ExpensesTableRow = styled.tr`
+  padding: .5rem;
+  border-right: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000;
+`;
+
+export const ExpensesTableColumnName = styled.th`
+  font-weight: bold;
+  font-size: 1.2rem;
+`;
+
+export const ExpensesTableRowValue = styled.td`
+  padding: .5rem;
+`;
+
+export const DivActions = styled.div`
+  display:flex;
 `;

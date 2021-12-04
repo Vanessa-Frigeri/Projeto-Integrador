@@ -9,8 +9,8 @@ import Task from './components/Task';
 import Finance from './components/Finance';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import ListPayments from './components/ListPayments';
-import ListExpenses from './components/ListExpenses';
+import FinancePayments from './components/FinancePayments';
+import FinanceExpenses from './components/FinanceExpenses';
 
 const Main = () => (
   <>
@@ -22,8 +22,8 @@ const Main = () => (
       <Route path="/finance" element={<Finance/>} /> 
       <Route path="/login" element={<Login/>} /> 
       <Route path="/signup" element={<Signup/>} />
-      <Route path="/finance/listPayments" element={<ListPayments/>} />   
-      <Route path="/finance/listExpenses" element={<ListExpenses/>} />   
+      <Route path="/finance/payments" element={<FinancePayments/>} />   
+      <Route path="/finance/expenses" element={<FinanceExpenses/>} />   
     </Routes>
   </>
 );

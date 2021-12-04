@@ -37,14 +37,46 @@ export const FinancePathItemLink = styled(LinkR)`
   color: var(--purple-900);
 `;
 
-export const FinanceBtnPayments = styled.button`
-
+export const FinancePaymentsAll = styled.button`
+  background-color: red;
 `;
 
-export const FinanceBtnExpenses = styled(FinanceBtnPayments)``;
+export const FinanceExpensesAll = styled(FinancePaymentsAll)`
+
+`;
 
 export const FinanceLink = styled(LinkR)`
   cursor: pointer; 
   text-decoration: none;
   color: var(--purple-900);
+`;
+
+export const FinanceBoxLists = styled.div`
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background-color: green;
+  width: 65%;
+`;
+export const FinanceBoxPayments = styled.div`
+  background-color: gray;
+  width: 48%;
+`;
+
+export const FinanceBoxExpenses = styled.div`
+  background-color: gray;
+  width: 48%;
+`;
+
+export const FinanceListPayments = styled.div`
+  background-color: lightblue;
+`;
+
+export const FinanceListExpenses = styled.div`
+  background-color: lightblue;
+`;
+
+export const FinanceButtonAdd = styled.button`
+  background-color: black;
+  color: white;
 `;

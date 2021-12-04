@@ -1,27 +1,85 @@
 import React from 'react';
-import Header from '../Header';
 import Container from '../Container';
+import { FaSearch, FaPen, FaRegTrashAlt } from 'react-icons/fa';
 import {
   ListExpensesContainer,
-  ListExpensesPath,
-  ListExpensesPathItem,
-  ListExpensesPathItemLink
+  ExpensesTable,
+  ExpensesTableRow,
+  ExpensesTableColumnName,
+  ExpensesTableRowValue,
+  DivActions
 } from './ListExpensesElements';
 
 const ListExpenses = () => (
   <>
-    <Header/>
     <Container>
       <ListExpensesContainer>
-        <ListExpensesPath>
-          <ListExpensesPathItem>
-            <ListExpensesPathItemLink to="/finance">Carteira</ListExpensesPathItemLink>          
-          </ListExpensesPathItem>
-          <ListExpensesPathItem>
-            <ListExpensesPathItemLink to="/finance/listExpenses">Despesas</ListExpensesPathItemLink>          
-          </ListExpensesPathItem>
-        </ListExpensesPath>
-        <h1>Aqui vai as Despesas</h1>
+        <ExpensesTable>
+            <ExpensesTableRow>
+              <ExpensesTableColumnName>Data da Despesa</ExpensesTableColumnName>
+              <ExpensesTableColumnName>Descrição</ExpensesTableColumnName>
+              <ExpensesTableColumnName>Valor</ExpensesTableColumnName>
+              <ExpensesTableColumnName>Categoria</ExpensesTableColumnName>
+              <ExpensesTableColumnName>Status</ExpensesTableColumnName>
+              <ExpensesTableColumnName>Ações</ExpensesTableColumnName>
+            </ExpensesTableRow>
+            <ExpensesTableRow>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>
+                <DivActions>
+                  <FaSearch/>
+                  <FaPen/>
+                  <FaRegTrashAlt/>
+                </DivActions>
+              </ExpensesTableRowValue>
+            </ExpensesTableRow>
+            <ExpensesTableRow>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>
+                <DivActions>
+                  <FaSearch/>
+                  <FaPen/>
+                  <FaRegTrashAlt/>
+                </DivActions>
+              </ExpensesTableRowValue>
+            </ExpensesTableRow>
+            <ExpensesTableRow>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>
+                <DivActions>
+                  <FaSearch/>
+                  <FaPen/>
+                  <FaRegTrashAlt/>
+                </DivActions>
+              </ExpensesTableRowValue>
+            </ExpensesTableRow>
+            <ExpensesTableRow>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>Item 1</ExpensesTableRowValue>
+              <ExpensesTableRowValue>
+                <DivActions>
+                  <FaSearch/>
+                  <FaPen/>
+                  <FaRegTrashAlt/>
+                </DivActions>
+              </ExpensesTableRowValue>
+            </ExpensesTableRow>
+          </ExpensesTable>
       </ListExpensesContainer>
     </Container>
   </>

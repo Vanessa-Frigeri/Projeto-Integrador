@@ -35,7 +35,7 @@ const Task = () => {
             <TaskPathItemLink to="/task/pendents">Tarefas Pendentes</TaskPathItemLink>          
           </TaskPathItem>
         </TaskPath>
-        <TaskButton type="button" onClick={openModalNewTask}>Nova Tarefa</TaskButton>
+        {/* <TaskButton type="button" onClick={openModalNewTask}>Nova Tarefa</TaskButton> */}
         <TaskTable>
           <TaskTableRow>
             <TaskTableColumnName>Status</TaskTableColumnName>
