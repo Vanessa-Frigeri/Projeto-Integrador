@@ -28,8 +28,8 @@ export const NewTaskButton = styled.button`
   border-radius: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
-  color: green;
-  background-color: white;
+  color: red;
+  background-color: #9c27b0;
 `;
 
 export const TaskGroupLabel = styled.label`

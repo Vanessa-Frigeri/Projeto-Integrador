@@ -9,5 +9,5 @@ export const CalendarContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 35rem;
+  height: 45rem;
 `;

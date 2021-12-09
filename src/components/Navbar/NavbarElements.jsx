@@ -54,6 +54,8 @@ export const NavProfile = styled.div`
 `;
 
 export const NavLink = styled(Link)`
+  font-weight: bold;
+  font-size: 25px;
   color: var(--indigo-50);
   display: flex;
   align-items: center;

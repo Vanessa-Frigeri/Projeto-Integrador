@@ -39,10 +39,11 @@ export const ListFinance = styled.div`
   align-items: center;
   height: 25rem;
   width: 45%;
-  background-color: #e7eaef;
+    background-color: #e7eaef;
 `;
 
 
 export const Image = styled.img`
-  height: 20rem;
+  height: 25rem;
+  
 `;

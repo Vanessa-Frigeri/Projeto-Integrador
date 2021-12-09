@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Container from '../Container';
-import em_construcao from '../../assets/images/em_construcao.jpeg';
+import em_construcao from '../../assets/images/em_construcao.jpg';
 import {
   PrincipalContainer,
   Calendar,
@@ -13,15 +13,15 @@ import {
 
 const Principal = () => (
   <>
-    <Header/>
+    <Header />
     <Container>
       <PrincipalContainer>
-        <Calendar><Image src={em_construcao} alt="calendario"/></Calendar>
+        <Calendar><Image src={em_construcao} alt="calendario" /></Calendar>
         <PrincipalBox>
-          <ListTask><Image src={em_construcao} alt="tarefas"/></ListTask>
-          <ListFinance><Image src={em_construcao} alt="financeiro"/></ListFinance>
+          <ListTask><Image src={em_construcao} alt="tarefas" /></ListTask>
+          <ListFinance><Image src={em_construcao} alt="financeiro" /></ListFinance>
         </PrincipalBox>
-      </PrincipalContainer>      
+      </PrincipalContainer>
     </Container>
   </>
 );

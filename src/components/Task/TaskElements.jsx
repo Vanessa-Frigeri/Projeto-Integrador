@@ -35,40 +35,46 @@ export const TaskPathItemLink = styled(LinkR)`
   cursor: pointer; 
   text-decoration: none;
   color: var(--purple-900);
+  font-weight: bold;
 `;
 
 export const TaskTable = styled.table`
-  width: 50%;
+  width: 80%;
   border-collapse: collapse;
-  text-align: left;
+  text-align: center;
+
 `;
 
 export const TaskTableRow = styled.tr`
   padding: .5rem;
-  border-right: 1px;
-  border-left: 1px;
+  border-right: 0px;
+  border-left: 0px;
   border-bottom: 1px;
   border-style: solid;
   border-color: #000;
+  
 `;
 
 export const TaskTableColumnName = styled.th`
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  
 `;
 
 export const TaskTableRowValue = styled.td`
-  padding: .5rem;
+  padding: 0.rem;
 `;
 
 export const TaskButton = styled.button`
   border: none;
   width: 10rem;
-  padding: .5rem 0;
+  padding: 1rem 0;
   border-radius: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
-  color: green;
-  background-color: white;
-  border: 1px solid green;
+  color: #ffffff;
+  background-color: #9c27b0;
+  border: 5px solid #04bcd4;
+  margin-top: 1.5rem;
 `;
+

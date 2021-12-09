@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Vanessa-Frigeri/Projeto-Integrador.git",
+  "author": "Paulo <paulo.hramos1@gmail.com>",
+  "license": "MIT"
 }
