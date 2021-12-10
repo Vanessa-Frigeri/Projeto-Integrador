@@ -15,85 +15,85 @@ const ListPayments = () => (
     <Container>
       <ListPaymentsContainer>
         <PaymentsTable>
-            <PaymentsTableRow>
-              <PaymentsTableColumnName>Data do Pagamento</PaymentsTableColumnName>
-              <PaymentsTableColumnName>Pagador</PaymentsTableColumnName>
-              <PaymentsTableColumnName>Descrição</PaymentsTableColumnName>
-              <PaymentsTableColumnName>Valor</PaymentsTableColumnName>
-              <PaymentsTableColumnName>Status</PaymentsTableColumnName>
-              <PaymentsTableColumnName>Ações</PaymentsTableColumnName>
-            </PaymentsTableRow>
-            <PaymentsTableRow>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>
-                <DivActions>
-                  <FaSearch/>
-                  <FaPen/>
-                  <FaRegTrashAlt/>
-                </DivActions>
-              </PaymentsTableRowValue>
-            </PaymentsTableRow>
-            <PaymentsTableRow>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>
-                <DivActions>
-                  <FaSearch/>
-                  <FaPen/>
-                  <FaRegTrashAlt/>
-                </DivActions>
-              </PaymentsTableRowValue>
-            </PaymentsTableRow>
-            <PaymentsTableRow>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>
-                <DivActions>
-                  <FaSearch/>
-                  <FaPen/>
-                  <FaRegTrashAlt/>
-                </DivActions>
-              </PaymentsTableRowValue>
-            </PaymentsTableRow>
-            <PaymentsTableRow>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>
-                <DivActions>
-                  <FaSearch/>
-                  <FaPen/>
-                  <FaRegTrashAlt/>
-                </DivActions>
-              </PaymentsTableRowValue>
-            </PaymentsTableRow>
-            <PaymentsTableRow>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
-              <PaymentsTableRowValue>
-                <DivActions>
-                  <FaSearch/>
-                  <FaPen/>
-                  <FaRegTrashAlt/>
-                </DivActions>
-              </PaymentsTableRowValue>
-            </PaymentsTableRow>
-          </PaymentsTable>
+          <PaymentsTableRow>
+            <PaymentsTableColumnName>Data do Pagamento</PaymentsTableColumnName>
+            <PaymentsTableColumnName>Pagador</PaymentsTableColumnName>
+            <PaymentsTableColumnName>Descrição</PaymentsTableColumnName>
+            <PaymentsTableColumnName>Valor</PaymentsTableColumnName>
+            <PaymentsTableColumnName>Status</PaymentsTableColumnName>
+            <PaymentsTableColumnName>Ações</PaymentsTableColumnName>
+          </PaymentsTableRow>
+          <PaymentsTableRow>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>
+              <DivActions>
+                <FaSearch />
+                <FaPen />
+                <FaRegTrashAlt />
+              </DivActions>
+            </PaymentsTableRowValue>
+          </PaymentsTableRow>
+          <PaymentsTableRow>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>
+              <DivActions>
+                <FaSearch />
+                <FaPen />
+                <FaRegTrashAlt />
+              </DivActions>
+            </PaymentsTableRowValue>
+          </PaymentsTableRow>
+          <PaymentsTableRow>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>
+              <DivActions>
+                <FaSearch />
+                <FaPen />
+                <FaRegTrashAlt />
+              </DivActions>
+            </PaymentsTableRowValue>
+          </PaymentsTableRow>
+          <PaymentsTableRow>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>
+              <DivActions>
+                <FaSearch />
+                <FaPen />
+                <FaRegTrashAlt />
+              </DivActions>
+            </PaymentsTableRowValue>
+          </PaymentsTableRow>
+          <PaymentsTableRow>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>Item 1</PaymentsTableRowValue>
+            <PaymentsTableRowValue>
+              <DivActions>
+                <FaSearch />
+                <FaPen />
+                <FaRegTrashAlt />
+              </DivActions>
+            </PaymentsTableRowValue>
+          </PaymentsTableRow>
+        </PaymentsTable>
       </ListPaymentsContainer>
     </Container>
   </>

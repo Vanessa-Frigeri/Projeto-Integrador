@@ -8,7 +8,7 @@ export const NewExpenseContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: lightgreen;
+  background-color: #e7cbec;
 `;
 
 export const NewExpenseForm = styled.form`

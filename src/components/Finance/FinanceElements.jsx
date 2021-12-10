@@ -54,6 +54,7 @@ export const FinanceLink = styled(LinkR)`
   cursor: pointer; 
   text-decoration: none;
   color: var(--purple-900);
+  
 `;
 
 export const FinanceBoxLists = styled.div`

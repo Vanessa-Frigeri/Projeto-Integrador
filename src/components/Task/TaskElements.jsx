@@ -76,5 +76,10 @@ export const TaskButton = styled.button`
   background-color: #9c27b0;
   border: 5px solid #04bcd4;
   margin-top: 1.5rem;
+
+  &:hover{ 
+    background-color:#04bcd4;
+    color: black;
+  }
 `;
 

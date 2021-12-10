@@ -8,17 +8,18 @@ export const NewPaymentContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: lightgreen;
+  background-color: #e7cbec;
 `;
 
 export const NewPaymentForm = styled.form`
-  margin-top: 2rem;
-  width: 100%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+margin-top: 1rem;
+margin-bottom:6rem;
+width: 100%;
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
 `;
 
 export const NewPaymentButtonAdd = styled.button`

@@ -13,13 +13,13 @@ export const ListPaymentsContainer = styled.div`
 export const PaymentsTable = styled.table`
   width: 100%;
   border-collapse: collapse;
-  text-align: left;
+  text-align:center ;
 `;
 
 export const PaymentsTableRow = styled.tr`
   padding: .5rem;
-  border-right: 1px;
-  border-left: 1px;
+  border-right: 0px;
+  border-left: 0px;
   border-bottom: 1px;
   border-style: solid;
   border-color: #000;
@@ -31,7 +31,7 @@ export const PaymentsTableColumnName = styled.th`
 `;
 
 export const PaymentsTableRowValue = styled.td`
-  padding: .5rem;
+  padding: .2rem;
 `;
 
 

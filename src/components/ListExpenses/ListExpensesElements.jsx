@@ -18,8 +18,8 @@ export const ExpensesTable = styled.table`
 
 export const ExpensesTableRow = styled.tr`
   padding: .5rem;
-  border-right: 1px;
-  border-left: 1px;
+  border-right: 0px;
+  border-left: px;
   border-bottom: 1px;
   border-style: solid;
   border-color: #000;
